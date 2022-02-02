@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    min-height: 100vh;
+    max-height: 100vh;
     min-width: 100vw;
     color: #ffffff;
     font-family: 'Rowdies', cursive;
@@ -114,7 +114,7 @@ p,h2{
     min-height: 75vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     z-index: 5;
 }
 
@@ -149,6 +149,8 @@ p,h2{
 
 
 
+
+/* ------------------------------------------------------------------------------------------------------------- */
 
 
 
