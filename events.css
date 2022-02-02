@@ -11,20 +11,20 @@ body{
     min-height: 100vh;
     min-width: 100vw;
     color: #ffffff;
-    background-color: #292d33;
     font-family: 'Rowdies', cursive;
+    background-image: url(/sources/5039684.jpg);
 }
 
 p,h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .bottom_bar{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    background-color: #424252;
+    position: absolute;
+    background-color: #424252c9;
     color: white;
     width: 100vw;
     bottom: 0px;
@@ -35,7 +35,7 @@ p,h2{
 }
 .icons a img{
     width: 3.5rem;
-    margin: 1rem 1.5rem 0.5rem 1.5rem;
+    margin: 1rem 1.5rem ;
 }
 .social-links :hover{
     cursor: pointer;
@@ -52,6 +52,7 @@ p,h2{
     justify-content: space-between;
     max-width: 100vw;
     height: 7rem;
+    background-color: #292d33d0;
 }
 .logo{
     /* background-color: royalblue; */
@@ -67,7 +68,7 @@ p,h2{
 }
 .nav-links{
     margin-right: 2rem;
-    background-color: rgb(189, 67, 104);
+    /* background-color: rgb(189, 67, 104); */
     width: 15%;
     display: flex;
     justify-content: space-evenly;
@@ -96,15 +97,82 @@ p,h2{
 /* ------------------------------------------------------------------------------------------------------------- */
 
 .container{
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 100%;
-    min-height: 80vh;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .box{
+    border: 2px solid red;
+} */
+
+#event-detail{
+    width: 75%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+#poster{
+    display: flex;
+    max-height: 65vh;
+    overflow: hidden;
+}
+
+#poster img{
+    width: 100%;
+    animation: slider 6s infinite linear;
+}
+
+#other-details{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+#other-details button{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid tomato;
+    background: none;
+    background-color: #292d33;
+    padding: 2rem;
+    font-family: 'Rowdies', cursive;
+    color: whitesmoke;
 }
 
 
 
 
 
+
+
+
+
+@keyframes slider {
+    0%{
+        transform: translateX(0%);
+    }
+    40%{
+        transform: translateX(0%);
+    }
+
+    50%{
+        transform: translateX(-100%);
+    }
+    90%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+
+}
 
 
 
