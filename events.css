@@ -105,9 +105,9 @@ p,h2{
     align-items: center;
 
 }
-.box{
+/* .box{
     border: 2px solid red;
-}
+} */
 
 #event-detail{
     width: 90%;
@@ -187,7 +187,7 @@ p,h2{
         min-width: 100%;
     }
     #poster{
-        min-height: 40vh;
+        min-height: 35vh;
         min-width: 90%;
     }
     #other-details{
