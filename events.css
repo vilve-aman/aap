@@ -105,12 +105,12 @@ p,h2{
     align-items: center;
 
 }
-/* .box{
+.box{
     border: 2px solid red;
-} */
+}
 
 #event-detail{
-    width: 75%;
+    width: 90%;
     min-height: 75vh;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@ p,h2{
     }
     #poster{
         min-height: 40vh;
-        /* min-width: 90vw; */
+        min-width: 90%;
     }
     #other-details{
         min-height: 30vh;
