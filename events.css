@@ -184,7 +184,7 @@ p,h2{
         font-size: 40%;
     }
     .container{
-        min-width: 90%;
+        min-width: 100%;
     }
     #poster{
         min-height: 40vh;
